@@ -69,6 +69,49 @@
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
           </button>
+          <h3 class="title-modal">Deje sus datos, nos contactaremos con usted</h3>
+                <form class="formu" name="Conocer al cliente" autocomplete="off" novalidate>
+                    <div class="form-modal">
+                        <label class="tex-modal" for="nombre">Nombre</label>
+                        <input class="modal-datos" type="text" name="nombre" id="nombre">
+                        <div class="form-icons">
+                            <svg class="icons-form" width="12" height="12">
+                                <use href="./images/icons.svg#icon-contacto"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="form-modal">
+                        <label class="tex-modal" for="numero">Teléfono</label>
+                        <input class="modal-datos" type="tel" name="numero" id="numero">
+                        <div class="form-icons">
+                            <svg class="icons-form" width="13" height="13">
+                                <use href="./images/icons.svg#icon-telefono"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="form-modal">
+                        <label class="tex-modal" for="correo">E-mail</label>
+                        <input class="modal-datos" type="text" name="correo" id="correo">
+                        <div class="form-icons">
+                            <svg class="icons-form" width="15" height="12">
+                                <use href="./images/icons.svg#icon-correo"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="form-modal-comen">
+                        <label class="tex-modal" for="ideas">Comentarios</label>
+                        <textarea class="modal-coment" type="text" name="ideas" id="ideas"
+                            placeholder="Introduzca el texto"></textarea>
+                    </div>
+                    <div class="form-modal-check">
+                        <label class="descrip" for="verificar">
+                            <input class="checkbox" type="checkbox">
+                            <p class="descrip">Estoy de acuerdo con el boletín informativo y acepto los Términos y
+                                Condiciones</p>
+                        </label>
+                    </div>
+                    <button class="submit" type="submit">Enviar</button>
+                </form>
         </div>
       </div>
 
@@ -398,31 +441,19 @@
             </a>
           </div>
         </div>
-        <form
-          class="form-footer"
-          name="suscripcion"
-          autocomplete="off"
-          novalidate
-        >
+        <form class="form-footer" name="suscripcion" autocomplete="off" novalidate>
           <div class="form-sucrib">
-            <label class="tex-for" for="correo">
-              SUSCRÍBASE AL BOLETÍN INFORMATIVO</label
-            >
-            <input
-              class="input-footer"
-              type="correo"
-              name="correo"
-              id="correo"
-              placeholder="Correo Electrónico"
-            />
+              <label class="tex-for" for="correo"> SUSCRÍBASE AL BOLETÍN INFORMATIVO</label>
+              <input class="input-footer" type="correo" name="correo" id="correo"
+                  placeholder="Correo Electrónico">
           </div>
-          <button class="for-button" type="submit">
-            Suscríbase
-            <svg class="icon-enviar" widht="24" height="24">
-              <use href="./images/icons.svg#icon-enviar-cono"></use>
-            </svg>
+          <button class="for-button" type="submit">Suscríbase
+              <svg class="icon-enviar" widht="24" height="24">
+                  <use href="./images/icons.svg#icon-enviar-cono"></use>
+              </svg>
           </button>
-        </form>
+      </form>
+      </div>
       </div>
     </footer>
     <script src="./js/modal.js"></script>
